@@ -1,0 +1,334 @@
+/* подключаем шрифты */
+@import url("https://fonts.googleapis.com/css?family=Caesar+Dressing:regular&display=swap");
+
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+li {
+  /*убираем точки*/
+  list-style: none;
+}
+a, /* убираем у ссылок предустановки*/
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,/*убираем стили у заголовков*/
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  /* Убираем фантомный отступ от картинки */
+  vertical-align: top;
+}
+body {
+  line-height: 1;
+  color: #000;
+}
+/*-----------------------------------------*/
+
+/* Машинка */
+body {
+  background: url(../img/back.jpg);
+  background-size: cover;
+}
+.car {
+  position: relative;
+  top: 0px;
+}
+.one {
+  width: 350px;
+  height: 250px;
+  position: absolute;
+  top: 250px;
+  left: 300px;
+  z-index: 3;
+  border: black 3px solid;
+  border-radius: 21px 21px 0px 0px;
+  background: url(../img/rust-2572165__340.jpg);
+}
+
+.two {
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  top: 300px;
+  left: 648px;
+  z-index: 3;
+  border: black 3px solid;
+  border-radius: 0px 80px 0px 0px / 0px 100px 0px 0px;
+  border-bottom: none;
+  background: url(../img/rust-2572165__340.jpg);
+}
+
+.three {
+  width: 230px;
+  height: 100px;
+  position: absolute;
+  top: 400px;
+  left: 648px;
+  z-index: 3;
+  border: black 3px solid;
+  border-radius: 0px 30px 0px 0px / 0px 40px 0px 0px;
+  background: url(../img/rust-2572165__340.jpg);
+}
+
+.four {
+  width: 600px;
+  height: 30px;
+  position: absolute;
+  top: 497px;
+  left: 290px;
+  z-index: 3;
+  border: #000 3px solid;
+  border-radius: 50px 50px 50px 50px;
+  background: url(../img/dsc_9326.jpg);
+}
+
+.five {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: black 3px solid;
+  position: absolute;
+  top: 470px;
+  left: 320px;
+  z-index: 10;
+  background: url(../img/free-tire-marks-icons-vector-thumb.jpg);
+}
+
+.six {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: black 3px solid;
+  position: absolute;
+  top: 470px;
+  left: 700px;
+  z-index: 10;
+  background: url(../img/free-tire-marks-icons-vector-thumb.jpg);
+}
+
+.seven {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: black 3px solid;
+  position: absolute;
+  top: 500px;
+  left: 350px;
+  z-index: 10;
+  background: yellow;
+}
+
+.eight {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: black 3px solid;
+  position: absolute;
+  top: 500px;
+  left: 730px;
+  z-index: 10;
+  background: yellow;
+}
+.nine {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: black 3px solid;
+  position: absolute;
+  top: 515px;
+  left: 365px;
+  z-index: 10;
+  background: url(../img/rust-2572165__340.jpg);
+}
+.ten {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: black 3px solid;
+  position: absolute;
+  top: 515px;
+  left: 745px;
+  z-index: 10;
+  background: url(../img/rust-2572165__340.jpg);
+}
+.eleven {
+  width: 15px;
+  height: 40px;
+  border: black 3px solid;
+  border-radius: 0px 20px 20px 0px;
+  position: absolute;
+  top: 427px;
+  left: 876px;
+  z-index: 3;
+  background: url(../img/sv317_s.jpg);
+}
+.twelve {
+  width: 115px;
+  height: 85px;
+  position: absolute;
+  top: 310px;
+  left: 660px;
+  z-index: 3;
+  border: black 3px solid;
+  border-radius: 0px 60px 0px 0px / 0px 50px 0px 0px;
+  background: url(../img/water_ice_textures-5-300x225.jpg);
+}
+.thirteen {
+  width: 30px;
+  height: 15px;
+  position: absolute;
+  top: 415px;
+  left: 660px;
+  border: black 3px solid;
+  background: white;
+  z-index: 5;
+  border-radius: 0px 60px 0px 0px / 0px 50px 0px 0px;
+  background: url(../img/abstract-pattern-39455.jpg);
+}
+.fourteen {
+  width: 30px;
+  height: 15px;
+  position: absolute;
+  top: 484px;
+  left: 273px;
+  border: black 3px solid;
+  border: black 3px solid;
+  background: url(../img/abstract-pattern-39455.jpg);
+  z-index: 10;
+}
+.fifteen {
+  width: 120px;
+  height: 71px;
+  border: black 3px solid;
+  border-radius: 100px 100px 0px 0px;
+  position: absolute;
+  top: 457px;
+  left: 320px;
+  z-index: 5;
+  background: url(../img/ferrum.png);
+}
+.sixteen {
+  width: 120px;
+  height: 71px;
+  border: black 3px solid;
+  border-radius: 100px 100px 0px 0px;
+  position: absolute;
+  top: 457px;
+  left: 700px;
+  z-index: 5;
+  background: url(../img/ferrum.png);
+}
+
+.car:hover .eleven {
+  box-shadow: 10px 10px 15px 10px rgb(252, 161, 16);
+}
+.car:hover .twelve {
+  background: url(../img/Jigsaw_T_shirt_Design_by_Departedpro.jpg) 0px -20px;
+}
+
+/* --------------------------------------------- */
+
+/* Выпадающее меню */
+.header {
+  background-color: black;
+}
+.header_container {
+  max-width: 80%; /* ограничиваем для удобства*/
+  margin: 0 auto; /*центрует*/
+}
+.header_list > li {
+  display: inline-block; /* для строчного размещения*/
+  margin: 0px 30px 0px 0px;
+  position: relative; /*родитель для sub-листа*/
+}
+.header_list > li:last-child {
+  margin-right: 0px; /* убираем у последнего пункта*/
+}
+.header_link {
+  font-size: 20px;
+  font-family: "Caesar Dressing";
+  font-weight: normal;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 0px;
+  display: inline-block;
+}
+.header_sub-list {
+  min-width: 130px;
+  background-color: grey;
+  position: absolute; /* позиционируем*/
+  left: 0; /* слева относительно родителя, т.е li первого уровня*/
+  top: 100%;
+  display: none; /*убрали последним этапом после прорисовки стилей*/
+}
+.header_sub-list > li {
+  margin: 0px 0px 10px 0px;
+  padding: 5px 15px;
+  position: relative; /*родитель для следующего вложения, родитель второго уровня*/
+}
+.header_sub-list > li:last-child {
+  margin-bottom: 0px; /*убираем у последнего отступ снизу*/
+}
+.header_sub-link {
+  font-size: 14px;
+  color: blanchedalmond;
+  font-family: "Caesar Dressing";
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.header_list > li:hover .header_sub-list {
+  /*обращаемся к li первого уровня в состоянии hover + к списку второго уровня при hover li первоого уровня*/
+  display: block; /* показали меню*/
+}
+.header_sub_sub-list {
+  min-width: 130px;
+  background-color: wheat;
+  position: absolute;
+  left: 100%; /*выстроили координаты*/
+  top: 0;
+  display: none; /*последний этап после стилизации sub_sub-list*/
+}
+.header_sub_sub-list > li {
+  margin: 0px 0px 10px 0px;
+  padding: 5px 15px;
+}
+.header_sub_sub-list > li:last-child {
+  margin-bottom: 0;
+}
+.header_sub_sub-link {
+  font-size: 14px;
+  color: black;
+  font-family: "Caesar Dressing";
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.header_sub-list > li:hover .header_sub_sub-list {
+  /*обращаемся к li sub-list  в состоянии hover и к sub_sub-list*/
+  display: block;
+}
+
+.header_list > li:hover .header_link {
+  color: red;
+}
+.header_sub-list > li:hover .header_sub-link {
+  color: red;
+}
+.header_sub_sub-list > li:hover .header_sub_sub-link {
+  color: red;
+}
